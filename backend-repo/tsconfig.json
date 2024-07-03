@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "moduleDetection": "force",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "outDir": "./dist",
+      "typeRoots": ["./node_modules/@types", "./types"]
+    },
+    "include": ["src/**/*.ts", "config/**/*.ts", "controllers/**/*.ts", "core/**/*.ts", "entities/**/*.ts", "middleware/**/*.ts", "repository/**/*.ts", "routes/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  

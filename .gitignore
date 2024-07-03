@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/backend-repo/node_modules
+/backend-repo/FirebaseService.json
+/frontend-repo/.env
+/frontend-repo/node_modules
+/frontend-repo/.pnp
+/frontend-repo/.pnp.js
+/frontend-repo/.yarn/install-state.gz
+
+# testing
+/frontend-repo/coverage
+
+# next.js
+/frontend-repo/.next/
+/frontend-repo/out/
+
+# production
+/frontend-repo/build
+
+# misc
+/frontend-repo/.DS_Store
+/frontend-repo/*.pem
+
+# debug
+/frontend-repo/npm-debug.log*
+/frontend-repo/yarn-debug.log*
+/frontend-repo/yarn-error.log*
+
+# local env files
+/frontend-repo/.env*.local
+
+# vercel
+/frontend-repo/.vercel
+
+# typescript
+/frontend-repo/*.tsbuildinfo
+/frontend-repo/next-env.d.ts

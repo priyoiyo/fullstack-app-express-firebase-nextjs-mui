@@ -1,0 +1,16 @@
+{
+    "name": "fullstack-app",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+      "install:all": "npm run install:frontend && npm run install:backend",
+      "install:frontend": "cd frontend-repo && npm install",
+      "install:backend": "cd backend-repo && npm install",
+      "start:frontend": "cd frontend-repo && npm run dev",
+      "start:backend": "cd backend-repo && npm start"
+    },
+    "devDependencies": {
+      "concurrently": "^7.0.0"
+    }
+  }
+  
